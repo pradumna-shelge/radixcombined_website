@@ -1,0 +1,46 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.pnav ul{
+    display: flex;
+    background-color: rgb(68, 127, 131);
+    padding: 20px;
+    border-radius: 5px;
+    list-style: none;
+   
+}
+.pnav a{
+    font-size: x-large;
+    margin: 50px 50px;
+    color: rgb(225, 225, 231);
+    text-decoration: none;   
+}
+.depart{
+    padding: 50px;
+    
+}
+.pra1-main{
+    text-align: center;
+    background-color: rgba(64, 187, 236, 0.429);
+}
+.pnav ul{
+ align-items: center;
+}
+.container{
+    display: grid;
+  
+    grid-template-columns: 2fr 1fr 2fr 1fr ;
+    grid-template-rows: 1fr 2fr 1fr 1fr ;
+}
+#photos{
+    margin: 5px 1px;
+    width: 95%;
+    height: 80%;
+    
+    /* object-fit:fill; */
+   
+   
+}
