@@ -58,14 +58,17 @@
     padding: 6px 25px;
     
 }
-.left ul li{
- margin: 5px;
- 
-}
+
 .left ul li , .left ul li a{
     font-size: medium;
     font-weight: bold;
+    color: rgb(28, 16, 160);
 }
+.left ul li{
+    margin: 17px;
+    color: rgb(0, 0, 0);
+    
+   }
 .right{
     grid-area: right;
   
@@ -91,3 +94,50 @@
 }
 
 /* ----------------------------------------------------------- */
+/* ========================resume assignment 1 ======================================
+ */
+
+.full {
+	width: 80%;
+	max-width: 1000px;
+	min-height: 100px;
+	background-color: rgb(96, 95, 95);
+	margin: 10px;
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+    font-size: medium;
+}
+.cleft {
+	position: initial;
+	background-color: rgb(122, 122, 121);
+	padding: 40px;
+    font-size: medium;
+
+}
+.cright {
+	position: initial;
+	background-color: rgb(97, 100, 99);
+	padding: 40px;
+
+}
+.image, .Contact, .Skills, .Language, .Hobbies, .title,
+.Summary, .Experience, .Education, .project {
+	margin-bottom: 30px;
+    font-size: x-large;
+}
+.full h1 {
+	font-size: 30px;
+}
+.full h2{
+    font-size: 25px;
+}
+.full h3{
+    font-size: 20px;
+}
+.full b,li,td,th{
+    font-size: 13px;
+    font-weight: 100;
+}
+.full p{
+    font-size: 15px;
+}
