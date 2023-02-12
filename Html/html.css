@@ -69,7 +69,7 @@
 .right{
     grid-area: right;
   
-    padding:0 ;
+    padding:10px ;
     width: 100%;
     /* padding: 5px 5px; */
     background-color: aliceblue;
@@ -92,6 +92,30 @@ form p{
    margin: 15px;
    padding: 10px;
     background-color: rgb(208, 43, 17);
+}
+
+
+.pnav ul{
+    display: flex;
+    background-color: rgb(51, 38, 21);
+    padding: 20px;
+    border-radius: 15px;
+    list-style: none;
+}
+.pnav a{
+    font-size: x-large;
+    margin: 25px;
+    color: rgb(225, 225, 231);
+    text-decoration: none;   
+}
+.depart{
+    padding: 50px;
+}
+.depart ul,li,h1{
+    margin-left: 22px;
+    margin-top: 12px;
+    font-size: medium;
+   line-height: 15px;
 }
 
 
