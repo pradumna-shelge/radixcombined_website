@@ -6,7 +6,7 @@
 }
 .pnav ul{
     display: flex;
-    background-color: rgb(68, 127, 131);
+    background-color: rgba(68, 127, 131, 0.733);
     padding: 20px;
     border-radius: 5px;
     list-style: none;
@@ -15,7 +15,7 @@
 .pnav a{
     font-size: x-large;
     margin: 50px 50px;
-    color: rgb(225, 225, 231);
+    color: rgb(255, 251, 251);
     text-decoration: none;   
 }
 .depart{
@@ -24,7 +24,7 @@
 }
 .pra1-main{
     text-align: center;
-    background-color: rgba(64, 187, 236, 0.429);
+    background-color: rgba(218, 233, 238, 0.331);
 }
 .pnav ul{
  align-items: center;
