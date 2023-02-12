@@ -117,6 +117,31 @@ form p{
     font-size: medium;
    line-height: 15px;
 }
+th , td{
+    font-size: medium;
+    padding: 12px 35px;
+    border: 1px solid;
+    border-collapse:separate;
+    text-align: left;
+
+}
+#r-table{
+    border: 1px solid;
+    border-collapse:collapse;
+    width: 95%;
+    
+}
+#r-table img{
+   width: 22rem;
+   float: left;
+   margin: px;
+}
+#tp{
+    text-align: center;
+    font-size: 50px;
+    margin: 12px;
+
+}
 
 
 
