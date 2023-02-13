@@ -142,4 +142,132 @@
     font-size: 15px;
 }
 
+/* ================================================================================
++++++++++++++++++++day4 Practice 1============================================ */
 
+
+th , td{
+    font-size: medium;
+    padding: 12px 35px;
+    border: 1px solid;
+    border-collapse:separate;
+    text-align: left;background-color: rgb(211, 206, 200);
+
+}
+#r-table{
+    border: 1px solid;
+    border-collapse:collapse;
+    width: 95%;
+    
+}
+#r-table img{
+   width: 22rem;
+   float: left;
+   margin: px;
+}
+#tp{
+    text-align: center;
+    font-size: 50px;
+    margin: 12px;
+
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* =============================practice 2=============================== */
+.pnav ul{
+    display: flex;
+    background-color: rgb(51, 38, 21);
+    padding: 20px;
+    border-radius: 15px;
+    list-style: none;
+}
+.pnav a{
+    font-size: x-large;
+    margin: 25px;
+    color: rgb(225, 225, 231);
+    text-decoration: none;   
+}
+.depart{
+    padding: 50px;
+}
+.depart ul,li,h1{
+    margin-left: 22px;
+    margin-top: 12px;
+    font-size: medium;
+   line-height: 15px;
+}
+
+
+/* ==========================================================================================================
+====================================Practice5===========================================================*/
+
+
+form div,input,p,radio,select,submit,reset{
+    font-size: 20px;
+}
+form,form p{
+    border: 1px solid;
+    padding: 20px;
+    width: 80%;
+    background-color: rgb(231, 241, 241);
+    margin: auto;
+  
+    
+}
+form p{
+   margin: 15px;
+   padding: 10px;
+    background-color: rgb(208, 43, 17);
+}
+
+/* =============================================================================== */
+/* =================================================day 5 Practice 1==================== */
+.rcont{
+    display: grid;
+    grid-template-areas: ' h h h h h'
+                        'l  m m m r ';
+    background-color: antiquewhite;
+}
+.rheader{
+    grid-area: h;
+    background-color: rgb(95, 100, 100);
+    font-size:50px;
+    text-align: center;
+    padding: 25px;
+    color: aliceblue;
+
+}
+.rleft{
+    grid-area: l;
+    padding: 22px;
+    background-color: rgb(221, 207, 17);
+   
+}
+.rleft li{
+    list-style: none;
+    font-size: x-large;
+    padding: 5px 5px;
+    margin: 74% 12px;
+   
+}
+.rleft a{
+    font-size: larger;
+    color: rgb(39, 70, 207);
+    text-decoration: none;
+}
+.rmain{
+    grid-area: m;
+    padding: 15px;
+    text-align: center;
+
+}
+.rmain h1{
+font-size: xx-large;
+margin: 12px;
+}
+.rright{
+    grid-area: r;
+    background-color: aquamarine;
+    padding: 15px;
+}
