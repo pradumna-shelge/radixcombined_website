@@ -25,15 +25,13 @@
     justify-content:space-around;
     color: aliceblue;
     flex-wrap: wrap;
+    padding: 15px;
     
 
 }
-.logo{
-    
 
-}
 #logo{
-    height: 10em;
+    height: 12em;
     width: 15em;
     padding: 1.5rem;
     border-radius: 0px;
@@ -50,22 +48,27 @@
     text-decoration: none;
     color: aliceblue;
 }
-
+/* ==================================================== */
+/* ===================================leftbar================= */
 .left{
     grid-area: left;
-    height: 100%;
+    height: 150%;
     background-color: rgb(82, 82, 82);
     padding: 6px 25px;
     
 }
-.left ul li{
- margin: 5px;
- 
-}
+
 .left ul li , .left ul li a{
     font-size: medium;
     font-weight: bold;
+    color: rgb(28, 16, 160);
 }
+.left ul li{
+    margin: 17px;
+    color: rgb(0, 0, 0);
+    
+   }
+/* ======================================================================= */
 .right{
     grid-area: right;
   
@@ -75,7 +78,18 @@
     background-color: aliceblue;
    
 }
-
+/* ===========================home=========== */
+.home-image{
+    width: 100%;
+    margin: auto;
+    background-color: rgb(211, 218, 225);
+}
+#home-right{
+    width: 50%;
+    margin: 10px 200px;
+    
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++++ */
 form div,input,p,radio,select,submit,reset{
     font-size: 20px;
 }
@@ -94,10 +108,10 @@ form p{
     background-color: rgb(208, 43, 17);
 }
 
-
+/* ================================================practice 2 ======= */
 .pnav ul{
     display: flex;
-    background-color: rgb(51, 38, 21);
+    background-color: rgba(9, 97, 197, 0.596);
     padding: 20px;
     border-radius: 15px;
     list-style: none;
@@ -108,15 +122,39 @@ form p{
     color: rgb(225, 225, 231);
     text-decoration: none;   
 }
-.depart{
+.htmlt{
     padding: 50px;
+    font-size: large;
+    background-color: rgb(231, 218, 201);
 }
-.depart ul,li,h1{
+.depart ul,li,h1,h2{
     margin-left: 22px;
     margin-top: 12px;
     font-size: medium;
    line-height: 15px;
 }
+.htmlt>h1{
+font-size: xx-large;
+text-align: center;
+}
+.depart{
+    border-bottom:1px solid ;
+    margin: 20px 12px;
+}
+html h2{
+    background-color: rgba(0, 255, 255, 0.411);
+    padding: 12px;
+}
+.testm>h1{
+    background-color: rgba(216, 213, 19, 0.452);
+    padding: 12px;
+}
+.test>h1{
+    background-color: rgb(170, 22, 22);
+    padding: 12px;
+}
+
+/* ================================================ */
 th , td{
     font-size: medium;
     padding: 12px 35px;
