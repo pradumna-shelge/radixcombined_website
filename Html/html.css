@@ -270,12 +270,12 @@ th , td{
     }
     /* ===========================home=========== */
     .home-right{
-        width: 50%;
+        width: 93%;
         
         background-color: rgb(255, 255, 255);
     }
     #home-right{
-        width: 149%;
+        width: 50%;
         height: 102%;
         margin: 3px 63px;
       
