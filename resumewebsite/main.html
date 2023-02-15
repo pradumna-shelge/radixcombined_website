@@ -7,56 +7,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>resume</title>
     <style>
-        *,
-        body {
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-           position: static;
-            justify-content: baseline;
-        }
-        .menuBar {
-           position: sticky;
-            top: 1%;
-           color: white;
-            background-color: rgb(224, 224, 209);
-        }
-        .menuBar a{
-            color: rgb(11, 22, 170);
-            font-size: 20px;
-            line-height: 30px;
-            font-weight: bold;
-            
 
-        }
-        .main>div{
-         background-color: rgb(212, 210, 208);
-         line-height: 40px;
-   display: none;
-   margin: 19px;
-   padding: 19px;
-        }
+        *,
+       body {
+           margin: 0;
+           padding: 0;
+       }
+       .container {
+          position: static;
+           justify-content: baseline;
+          display: -webkit-inline-box;
+       }
+       .menuBar {
+          position: sticky;
+           top: 1%;
+          color: white;
+           background-color: rgb(224, 224, 209);
+       }
+       .menuBar a{
+           color: rgb(170, 11, 11);
+           font-size: 20px;
+           line-height: 30px;
+           font-weight: bold;
+           
+
+       }
+       .main>div{
+        background-color: rgb(212, 210, 208);
+        line-height: 40px;
+  display: none;
+  margin: 19px;
+  padding: 19px;
+       }
+       
+       img{
+           height: 100px;
+       }
+       h1,h2{
+           font-size: 30px;
+           background-color: brown;
+           color: aliceblue;
+       }
+       p{
+           font-size: 15px;
+           padding: 5px;
+       }
+      
+       .main>div:target{
+           display:block;
+       }
+       li{
+           margin: 12px;
+       }
         
-        img{
-            height: 100px;
-        }
-        h1,h2{
-            font-size: 30px;
-            background-color: brown;
-            color: aliceblue;
-        }
-        p{
-            font-size: 15px;
-            padding: 5px;
+       @media only screen and (max-width:700px) {
+        .container {
+          
+            justify-content: baseline;
+            display: block;
         }
        
-        .main>div:target{
-            display:block;
-        }
-        li{
-            margin: 12px;
-        }
+
+       }
+       
 
     </style>
 </head>

@@ -6,7 +6,7 @@
 }
 .pnav ul{
     display: flex;
-    background-color: rgba(68, 127, 131, 0.733);
+    background-color: rgba(250, 32, 210, 0.733);
     padding: 20px;
     border-radius: 5px;
     list-style: none;
@@ -32,7 +32,7 @@
 .container{
     display: grid;
   
-    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    grid-template-columns: repeat( auto-fit, minmax(450px, 1fr) );
 }
 #photos{
     margin: 5px 1px;
@@ -83,7 +83,7 @@
     .container{
         display: grid;
       
-        grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+        grid-template-columns: repeat( auto-fit, minmax(450px, 1fr) );
     }
     #photos{
         margin: 5px 1px;
