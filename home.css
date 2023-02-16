@@ -67,12 +67,14 @@
     
 }
 .home-right{
-    padding-top: 35px;
+    padding:13% 0%
   
 }
 .home-right h1{
      font-size: 50px;
      text-align: center;
+  margin-top: 5%;
+     color: rgb(47, 49, 49);
 }
 
 
