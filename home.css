@@ -52,7 +52,7 @@
 
 .right{
     grid-area: right;
-    height: 90%;
+    /* height: 90%; */
     justify-content: center;
     display: flex;
     width: 82%;
@@ -75,6 +75,7 @@
      text-align: center;
   margin-top: 5%;
      color: rgb(47, 49, 49);
+     text-p
 }
 
 
